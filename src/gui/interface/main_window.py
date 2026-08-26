@@ -21,7 +21,8 @@ class MainWindowBase(MSFluentWindow):
         super().__init__()
 
     def run_post_terms_checks(self: "MainWindow") -> None:
-        signal_bus.update.check.emit(False)
+        # 本分支已移除启动时的自动更新检测，仅保留设置页的手动「检查更新」按钮
+        # （原实现：signal_bus.update.check.emit(False)）
 
         if not config.get(config.tutorial_dialog_shown):
             self.show_tutorial_dialog()
