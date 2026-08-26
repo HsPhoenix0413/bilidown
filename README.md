@@ -11,12 +11,15 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/v/release/ScottSloan/Bili23-Downloader?style=flat-square" alt="Release"/>
-    <img src="https://img.shields.io/github/license/ScottSloan/Bili23-Downloader?style=flat-square" alt="License"/>
-    <img src="https://img.shields.io/github/downloads/ScottSloan/Bili23-Downloader/total?style=flat-square" alt="Downloads"/>
-    <img src="https://img.shields.io/github/stars/ScottSloan/Bili23-Downloader?style=flat-square" alt="Stars"/>
-    <img src="https://img.shields.io/github/actions/workflow/status/ScottSloan/Bili23-Downloader/publish.yml?style=flat-square" alt="Build"/>
+    <img src="https://img.shields.io/github/v/release/HsPhoenix0413/bilidown?style=flat-square" alt="Release"/>
+    <img src="https://img.shields.io/github/license/HsPhoenix0413/bilidown?style=flat-square" alt="License"/>
+    <img src="https://img.shields.io/github/downloads/HsPhoenix0413/bilidown/total?style=flat-square" alt="Downloads"/>
 </p>
+
+> [!IMPORTANT]
+> **本仓库为修改版（Fork）**：基于 [ScottSloan/Bili23-Downloader](https://github.com/ScottSloan/Bili23-Downloader) **v2.15.0**（f127c13b）修改而来，原项目版权归原作者 [Scott Sloan](https://github.com/ScottSloan) 所有。
+>
+> **与上游的唯一差异**：移除了主窗口启动时的**自动更新检测** —— 程序启动不再向 `verhub.hanloth.cn` 发送版本号、操作系统类型等统计信息，除 B 站官方接口外不依赖任何第三方服务器；设置页中的手动「检查更新」按钮保留不变。其余功能与上游 v2.15.0 完全一致。
 
 <div align="center">
     <h3>
@@ -60,8 +63,8 @@
 
 当前提供两种下载方式，可按使用场景选择：
 
-- [**GitHub Releases**](https://github.com/ScottSloan/Bili23-Downloader/releases/latest) - 适合访问 GitHub 较稳定的用户，获取最新发布版本。
-- [**官网下载（国内用户推荐）**](https://bili23.scott-sloan.cn/doc/releases.html) - 适合国内用户，通常访问更快、更稳定。
+- [**GitHub Releases（本仓库）**](https://github.com/HsPhoenix0413/bilidown/releases/latest) - 本修改版的构建产物，含去除自动更新检测的 Windows x64 便携版（`Bili23-Downloader_*_windows_x64_portable.zip`，解压即用）。
+- [**上游官网下载**](https://bili23.scott-sloan.cn/doc/releases.html) - 原版 ScottSloan/Bili23-Downloader 的发布渠道；说明文档与 FAQ 也在此维护。
 
 ## 🪧 使用协议
 本项目仅供个人学习与研究用途，下载内容**仅限于个人非商业使用，严禁用于任何形式的商业目的、公开传播或分发**。  
@@ -72,7 +75,8 @@
 继续使用即表示您已充分理解并同意遵守上述全部条款。
 
 ## 🔑 开源许可
-本项目在 **GPLv3 License** 许可协议下进行发布。
+
+本仓库为上游项目的修改分支，遵循相同的 **GPLv3 License** 发布；原项目版权归 [ScottSloan](https://github.com/ScottSloan) 所有。
 
 wbi 签名、部分接口以及 buvid3 等参数生成参考 [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect)  
 

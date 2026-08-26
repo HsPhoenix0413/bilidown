@@ -11,12 +11,15 @@
 </p>
 
 <p align="center">
-    <img src="https://img.shields.io/github/v/release/ScottSloan/Bili23-Downloader?style=flat-square" alt="Release"/>
-    <img src="https://img.shields.io/github/license/ScottSloan/Bili23-Downloader?style=flat-square" alt="License"/>
-    <img src="https://img.shields.io/github/downloads/ScottSloan/Bili23-Downloader/total?style=flat-square" alt="Downloads"/>
-    <img src="https://img.shields.io/github/stars/ScottSloan/Bili23-Downloader?style=flat-square" alt="Stars"/>
-    <img src="https://img.shields.io/github/actions/workflow/status/ScottSloan/Bili23-Downloader/publish.yml?style=flat-square" alt="Build"/>
+    <img src="https://img.shields.io/github/v/release/HsPhoenix0413/bilidown?style=flat-square" alt="Release"/>
+    <img src="https://img.shields.io/github/license/HsPhoenix0413/bilidown?style=flat-square" alt="License"/>
+    <img src="https://img.shields.io/github/downloads/HsPhoenix0413/bilidown/total?style=flat-square" alt="Downloads"/>
 </p>
+
+> [!IMPORTANT]
+> **This repository is a modified fork** of [ScottSloan/Bili23-Downloader](https://github.com/ScottSloan/Bili23-Downloader) based on **v2.15.0** (f127c13b). All credits for the original project belong to [Scott Sloan](https://github.com/ScottSloan).
+>
+> **The only difference from upstream**: the **automatic update check on startup has been removed** — the app no longer sends version numbers or OS information to `verhub.hanloth.cn` on launch, making it fully self-contained locally (except for official Bilibili APIs). The manual "Check Update" button in Settings remains untouched. Everything else is identical to upstream v2.15.0.
 
 <div align="center">
     <h3>
@@ -60,8 +63,8 @@
 
 Two download methods are available. Choose the one that fits your situation best:
 
-- [**Go to GitHub Releases**](https://github.com/ScottSloan/Bili23-Downloader/releases/latest) - Recommended if GitHub is easily accessible for you, and you want the latest release.
-- [**Official Website Download (Recommended for users in China)**](https://bili23.scott-sloan.cn/doc/releases.html) - Recommended for users in China, usually faster and more stable to access.
+- [**GitHub Releases (this fork)**](https://github.com/HsPhoenix0413/bilidown/releases/latest) - Build artifacts of this modified version, including the Windows x64 portable package with auto-update check removed (`Bili23-Downloader_*_windows_x64_portable.zip`, just unzip and run).
+- [**Upstream Official Website**](https://bili23.scott-sloan.cn/doc/releases.html) - Release channel of the original ScottSloan/Bili23-Downloader; the documentation and FAQ are also maintained there.
 
 ## 🪧 Terms of Use
 This project is for personal learning and research purposes only. The downloaded content is **strictly for personal, non-commercial use, and any form of commercial use, public dissemination, or distribution is completely prohibited.**  
@@ -72,7 +75,8 @@ This software operates solely based on the user's legal account access permissio
 By continuing to use this software, you indicate your full understanding and agreement to comply with all the above terms.
 
 ## 🔑 Open Source License
-This project is released under the **GPLv3 License**.
+
+This repository is a modified fork of the upstream project, released under the same **GPLv3 License**; the copyright of the original project belongs to [ScottSloan](https://github.com/ScottSloan).
 
 Wbi signature, specific APIs, and buvid3 generation parameters are inspired by [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect).
 
